@@ -33,6 +33,11 @@ const Navbar = () => {
                 Training
               </Link>
             </li>
+            <li>
+              <Link to="/Contact" className="text-white hover:bg-blue-600 px-3 py-2 rounded">
+              Contact
+              </Link>
+            </li>
           </ul>
 
           {/* Right Side Buttons */}

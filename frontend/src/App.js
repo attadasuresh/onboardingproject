@@ -8,6 +8,8 @@ import Navbar from "./Components/Navbar";
 import EmployeeProfile from "./Components/EmployeeProfile";
 import Employeelogin from "./Components/Employeelogin";
 import Email from "./Components/Email";
+import Contact from "./Components/Contact";
+
 
 
 
@@ -26,6 +28,8 @@ function App() {
         <Route path="/Hrlogin" element={<Hrlogin />} />
         <Route path="/Employeelogin" element={<Employeelogin />} />
         <Route path="/Email" element={<Email />} />
+        <Route path="/Contact" element={<Contact />} />
+
 
       </Routes>
     </BrowserRouter>

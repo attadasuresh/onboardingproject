@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Employeelogin = () => {
   return (
@@ -9,19 +10,19 @@ const Employeelogin = () => {
           <h2 className="text-2xl font-bold mb-4">Dashboard</h2>
           <ul>
             <li>
-              <a href="#" className="block py-2 px-3 hover:bg-blue-700 rounded">Employee Profile</a>
+              <Link to="/EmployeeProfile" className="block py-2 px-3 hover:bg-blue-700 rounded">Employee Profile</Link>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 hover:bg-blue-700 rounded">HR Policies</a>
+              <Link to="/hr-policies" className="block py-2 px-3 hover:bg-blue-700 rounded">HR Policies</Link>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 hover:bg-blue-700 rounded">Benefits</a>
+              <Link to="/benefits" className="block py-2 px-3 hover:bg-blue-700 rounded">Benefits</Link>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 hover:bg-blue-700 rounded">Time Off</a>
+              <Link to="/time-off" className="block py-2 px-3 hover:bg-blue-700 rounded">Time Off</Link>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 hover:bg-blue-700 rounded">Training</a>
+              <Link to="/Training" className="block py-2 px-3 hover:bg-blue-700 rounded">Training</Link>
             </li>
           </ul>
         </nav>
@@ -42,10 +43,10 @@ const Employeelogin = () => {
         <section className="bg-white shadow-lg rounded-lg p-6 mb-6">
           <h2 className="text-2xl font-semibold mb-4">Quick Links</h2>
           <div className="flex space-x-4">
-            <a href="#" className="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300">Employee Profile</a>
-            <a href="#" className="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300">Training</a>
-            <a href="#" className="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300">Policies</a>
-            <a href="#" className="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300">Benefits</a>
+            <Link to="/EmployeeProfile" className="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300">Employee Profile</Link>
+            <Link to="/Training" className="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300">Training</Link>
+            <Link to="/hr-policies" className="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300">Policies</Link>
+            <Link to="/benefits" className="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300">Benefits</Link>
           </div>
         </section>
 
@@ -77,7 +78,7 @@ const Employeelogin = () => {
         {/* Company News and Announcements */}
         <section className="bg-white shadow-lg rounded-lg p-6 mb-6">
           <h2 className="text-2xl font-semibold mb-4">Company News & Announcements</h2>
-          <p>New company policies have been announced. Click <a href="#" className="text-blue-700">here</a> to view.</p>
+          <p>New company policies have been announced. Click <Link to="/company-news" className="text-blue-700">here</Link> to view.</p>
         </section>
       </main>
     </div>

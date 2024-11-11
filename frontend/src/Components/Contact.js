@@ -48,6 +48,7 @@ const Contact = () => {
           >
             💬
           </button>
+          
         )}
         {isChatOpen && (
           <div className="bg-white shadow-lg rounded-lg p-4 w-80">

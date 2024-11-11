@@ -8,6 +8,11 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           {/* Left Side Navigation Links */}
           <ul className="flex space-x-6">
+          <li>
+              <Link to="/Email" className="text-white hover:bg-blue-600 px-3 py-2 rounded">
+              Email
+              </Link>
+            </li>
             <li>
               <Link to="/" className="text-white hover:bg-blue-600 px-3 py-2 rounded">
                 Home

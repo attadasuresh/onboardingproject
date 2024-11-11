@@ -7,6 +7,8 @@ import Policies from "./Components/Policies";
 import Navbar from "./Components/Navbar";
 import EmployeeProfile from "./Components/EmployeeProfile";
 import Employeelogin from "./Components/Employeelogin";
+import Email from "./Components/Email";
+
 
 
   
@@ -23,7 +25,7 @@ function App() {
         <Route path="/Policies" element={<Policies />} />
         <Route path="/Hrlogin" element={<Hrlogin />} />
         <Route path="/Employeelogin" element={<Employeelogin />} />
-
+        <Route path="/Email" element={<Email />} />
 
       </Routes>
     </BrowserRouter>

@@ -5,7 +5,7 @@ const Training = () => {
     <div className="p-8 bg-gray-100 min-h-screen">
       <h1 className="text-4xl font-bold text-center text-gray-800 mb-10">Training & Development</h1>
 
-      {/* Training Program Overview Section */}
+      {/* Training Program Overview Section */} 
       <section className="bg-white shadow-lg rounded-lg p-8 mb-8">
         <h2 className="text-2xl font-semibold mb-4">Training Program Overview</h2>
         <p className="text-gray-700 mb-4">
@@ -34,7 +34,7 @@ const Training = () => {
           </ul>
         </div>
       </section>
-
+      
       {/* Learning Resources Section */}
       <section className="bg-white shadow-lg rounded-lg p-8 mb-8">
         <h2 className="text-2xl font-semibold mb-4">Learning Resources</h2>

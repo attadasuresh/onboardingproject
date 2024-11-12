@@ -9,6 +9,8 @@ import EmployeeProfile from "./Components/EmployeeProfile";
 import Employeelogin from "./Components/Employeelogin";
 import Email from "./Components/Email";
 import Contact from "./Components/Contact";
+import Equitments from "./Components/Equitments";
+
 
 function App() {
   return (
@@ -25,6 +27,7 @@ function App() {
         <Route path="/Employeelogin" element={<Employeelogin />} />
         <Route path="/Email" element={<Email />} />
         <Route path="/Contact" element={<Contact />} />
+        <Route path="/Equitments" element={<Equitments />} />
       </Routes>
     </BrowserRouter>
     </div>

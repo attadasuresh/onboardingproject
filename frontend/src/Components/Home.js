@@ -48,7 +48,6 @@ const Home = () => {
               <li><a href="#" className="text-blue-500 hover:underline">Leave Policies</a></li>
             </ul>
           </div>
-          
           {/* POSH Policy */}
           <div className="mb-4">
             <h3 className="text-lg font-medium mb-2">POSH Policy</h3>

@@ -41,7 +41,7 @@ const HrLogin = () => {
             </li>
             <li>
               <Link to="/analytics" className="block hover:bg-blue-600 px-4 py-3 rounded transition">
-                Analytics & Metrics
+                Analytics
               </Link>
             </li>
             <li>
@@ -62,7 +62,6 @@ const HrLogin = () => {
           </ul>
         </nav>
       </aside>
-
       {/* Main Content */}
       <main className="flex-grow p-8">
         <h1 className="text-3xl font-extrabold text-gray-800 mb-8">HR Dashboard Overview</h1>
@@ -111,7 +110,7 @@ const HrLogin = () => {
         {/* New Feature Sections */}
         {/* Analytics & Metrics */}
         <section className="bg-white shadow-lg rounded-lg p-6 mb-8">
-          <h2 className="text-2xl font-semibold mb-4">Analytics & Metrics</h2>
+          <h2 className="text-2xl font-semibold mb-4">Analytics </h2>
           <p className="text-gray-700">
             Analyze key metrics such as onboarding efficiency, task completion rates, and employee feedback.
           </p>

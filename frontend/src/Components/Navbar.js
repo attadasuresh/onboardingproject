@@ -38,6 +38,11 @@ const Navbar = () => {
               Contact
               </Link>
             </li>
+            <li>
+              <Link to="/Equitments" className="text-white hover:bg-blue-600 px-3 py-2 rounded">
+              IT-Tools
+              </Link>
+            </li>
           </ul>
 
           {/* Right Side Buttons */}

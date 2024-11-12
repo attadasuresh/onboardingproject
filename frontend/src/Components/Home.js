@@ -23,6 +23,7 @@ const Home = () => {
             <li>Profile Setup</li>
             <li>Training Session Scheduled</li>
             <li>IT Setup Pending</li>
+            <li>Prrofil setup</li>
           </ul>
         </section>
 
@@ -43,7 +44,6 @@ const Home = () => {
             <h3 className="text-lg font-medium mb-2">Company Policies</h3>
             <ul className="list-disc pl-5 space-y-2">
               <li><a href="#" className="text-blue-500 hover:underline">HR Manual</a></li>
-              <li><a href="#" className="text-blue-500 hover:underline">Code of Conduct</a></li>
               <li><a href="#" className="text-blue-500 hover:underline">Working Hours</a></li>
               <li><a href="#" className="text-blue-500 hover:underline">Leave Policies</a></li>
             </ul>

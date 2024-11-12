@@ -10,7 +10,7 @@ const Employeelogin = () => {
           <h2 className="text-2xl font-bold mb-4">Dashboard</h2>
           <ul>
             <li>
-              <Link to="/EmployeeProfile" className="block py-2 px-3 hover:bg-blue-700 rounded">Employee Profile</Link>
+              <Link to="/employee-profile" className="block py-2 px-3 hover:bg-blue-700 rounded">Employee Profile</Link>
             </li>
             <li>
               <Link to="/hr-policies" className="block py-2 px-3 hover:bg-blue-700 rounded">HR Policies</Link>
@@ -22,7 +22,10 @@ const Employeelogin = () => {
               <Link to="/time-off" className="block py-2 px-3 hover:bg-blue-700 rounded">Time Off</Link>
             </li>
             <li>
-              <Link to="/Training" className="block py-2 px-3 hover:bg-blue-700 rounded">Training</Link>
+              <Link to="/training" className="block py-2 px-3 hover:bg-blue-700 rounded">Training</Link>
+            </li>
+            <li>
+              <Link to="/feedback" className="block py-2 px-3 hover:bg-blue-700 rounded">Feedback</Link>
             </li>
           </ul>
         </nav>
@@ -39,17 +42,6 @@ const Employeelogin = () => {
           </button>
         </section>
 
-        {/* Navigation Menu */}
-        <section className="bg-white shadow-lg rounded-lg p-6 mb-6">
-          <h2 className="text-2xl font-semibold mb-4">Quick Links</h2>
-          <div className="flex space-x-4">
-            <Link to="/EmployeeProfile" className="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300">Employee Profile</Link>
-            <Link to="/Training" className="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300">Training</Link>
-            <Link to="/hr-policies" className="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300">Policies</Link>
-            <Link to="/benefits" className="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300">Benefits</Link>
-          </div>
-        </section>
-
         {/* Task and Notifications Center */}
         <section className="bg-white shadow-lg rounded-lg p-6 mb-6">
           <h2 className="text-2xl font-semibold mb-4">Tasks & Notifications</h2>
@@ -58,27 +50,39 @@ const Employeelogin = () => {
             <li>Submit KYC documents</li>
             <li>Mandatory training on workplace safety</li>
             <li>Upcoming company event: [Event Name]</li>
+            <li>Submit feedback for the last project</li>
           </ul>
+          <button className="mt-4 px-4 py-2 bg-blue-700 text-white rounded hover:bg-blue-600">
+            View All Tasks
+          </button>
         </section>
 
         {/* Attendance & Timesheet Summary */}
         <section className="bg-white shadow-lg rounded-lg p-6 mb-6">
           <h2 className="text-2xl font-semibold mb-4">Attendance & Timesheet</h2>
           <p>Hours logged this month: 120</p>
-          <button className="mt-4 px-4 py-2 bg-blue-700 text-white rounded hover:bg-blue-600">View Timesheet</button>
+          <button className="mt-4 px-4 py-2 bg-blue-700 text-white rounded hover:bg-blue-600">
+            View Timesheet
+          </button>
         </section>
 
         {/* Salary and Payroll Details */}
         <section className="bg-white shadow-lg rounded-lg p-6 mb-6">
           <h2 className="text-2xl font-semibold mb-4">Salary & Payroll</h2>
           <p>Base Salary: $[Amount]</p>
-          <button className="mt-4 px-4 py-2 bg-blue-700 text-white rounded hover:bg-blue-600">View Payslip</button>
+          <p>Bonuses: $[Amount]</p>
+          <p>Deductions: $[Amount]</p>
+          <button className="mt-4 px-4 py-2 bg-blue-700 text-white rounded hover:bg-blue-600">
+            View Payslip
+          </button>
         </section>
-
-        {/* Company News and Announcements */}
+        {/* Feedback and Performance Review */}
         <section className="bg-white shadow-lg rounded-lg p-6 mb-6">
-          <h2 className="text-2xl font-semibold mb-4">Company News & Announcements</h2>
-          <p>New company policies have been announced. Click <Link to="/company-news" className="text-blue-700">here</Link> to view.</p>
+          <h2 className="text-2xl font-semibold mb-4">Feedback & Performance Reviews</h2>
+          <p>View and provide feedback on your performance reviews.</p>
+          <button className="mt-4 px-4 py-2 bg-blue-700 text-white rounded hover:bg-blue-600">
+            View Reviews
+          </button>
         </section>
       </main>
     </div>

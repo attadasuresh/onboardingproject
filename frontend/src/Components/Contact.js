@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+
 const Contact = () => {
   const [isChatOpen, setIsChatOpen] = useState(false);
 
@@ -19,6 +20,7 @@ const Contact = () => {
           </p>
           <p className="text-gray-600">
             <span className="font-medium">Support Hours:</span> 9 AM - 5 PM (Mon - Fri)
+        <span className=''>support team</span>
           </p>
         </div>
 
@@ -48,7 +50,6 @@ const Contact = () => {
           >
             💬
           </button>
-          
         )}
         {isChatOpen && (
           <div className="bg-white shadow-lg rounded-lg p-4 w-80">
